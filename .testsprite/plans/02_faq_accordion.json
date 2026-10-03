@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.13.0/schemas/plan.schema.json",
+  "projectId": "8d651d8b-5cba-4c99-b8c0-1324009f0729",
+  "type": "frontend",
+  "name": "Curator Inquiries FAQ Accordion Interaction",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Scroll down to the FAQ section titled 'Frequently Answered Curiosities'."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the FAQ section is visible with accordion items including question 01 and question 02."
+    },
+    {
+      "type": "action",
+      "description": "Click on question 02 'Can I commission a completely bespoke floral sculpture for an estate or private event?' to expand it."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify that the answer is expanded and contains text about 'Haute Concierge works directly with private patrons'."
+    }
+  ]
+}

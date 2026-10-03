@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw archives and temporary media
+/*.zip
+/*.mp4
+/hero section frames/
+.testsprite/runs/

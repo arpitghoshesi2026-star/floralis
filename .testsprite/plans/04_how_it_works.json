@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.13.0/schemas/plan.schema.json",
+  "projectId": "8d651d8b-5cba-4c99-b8c0-1324009f0729",
+  "type": "frontend",
+  "name": "Atelier Ritual Journey 4-Step Process Display",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Scroll down to the '#how-it-works' section."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the heading 'From Sacred Soil to Living Masterpiece' and badge 'The Atelier Journey' are displayed."
+    },
+    {
+      "type": "action",
+      "description": "Inspect the 4 ritual steps in the grid."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify that all 4 steps ('01 CURATION', '02 ARTISTRY', '03 LOGISTICS', and '04 CONCIERGE') are rendered with their titles and descriptions."
+    }
+  ]
+}

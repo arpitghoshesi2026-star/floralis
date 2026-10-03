@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.13.0/schemas/plan.schema.json",
+  "projectId": "8d651d8b-5cba-4c99-b8c0-1324009f0729",
+  "type": "frontend",
+  "name": "Footer Brand and Concierge Information",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Click on the 'Concierge' link in the top navigation bar to navigate to the footer section."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify that the footer section is displayed with the brand name 'FLORALIS' and atelier locations."
+    },
+    {
+      "type": "action",
+      "description": "Check the concierge contact liaison in the footer."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify that 'concierge@floralis-atelier.com' and the telephone number are clearly visible in the footer."
+    }
+  ]
+}

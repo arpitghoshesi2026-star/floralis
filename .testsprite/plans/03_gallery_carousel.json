@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.13.0/schemas/plan.schema.json",
+  "projectId": "8d651d8b-5cba-4c99-b8c0-1324009f0729",
+  "type": "frontend",
+  "name": "Curated Floral Archive Carousel Tab Selection",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Scroll down to the '#gallery' section with the title 'Haute Floral Archive'."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the gallery carousel is visible and displays floral stories with interactive tabs."
+    },
+    {
+      "type": "action",
+      "description": "Click on the carousel tab labeled 'Story 2' or id 'carousel-tab-1'."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the active story card transitions to display 'Single-Origin French Peonies' or author 'Antoine Laurent'."
+    }
+  ]
+}

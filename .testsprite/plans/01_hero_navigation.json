@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.13.0/schemas/plan.schema.json",
+  "projectId": "8d651d8b-5cba-4c99-b8c0-1324009f0729",
+  "type": "frontend",
+  "name": "Hero and Primary Navigation Flow",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage and verify the hero section loads with the main headline and CTA button."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the heading 'Made by Nature, Chosen by You' is visible, along with the 'Experience The Story' call to action."
+    },
+    {
+      "type": "action",
+      "description": "Click on the 'FAQ' link in the top floating navigation bar."
+    },
+    {
+      "type": "assertion",
+      "description": "Verify that the page scrolls to the FAQ section with the title 'Frequently Answered Curiosities'."
+    }
+  ]
+}
